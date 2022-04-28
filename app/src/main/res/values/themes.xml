@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MeditationApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/greeny</item>
+        <item name="colorPrimaryVariant">@color/greeny</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/greeny</item>
+        <item name="colorSecondaryVariant">@color/greeny</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dark_grey</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/alegreya</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorSurface">@color/dark_grey</item>
+    </style>
+
+    <style name="DrawerItem">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
